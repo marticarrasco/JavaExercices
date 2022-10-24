@@ -130,6 +130,7 @@ public class RunEveryProgramme {
 ```
 
 **Programes per desenvolupar**
+
 1.- Implementeu un programa que demani l’edat i el nom de l’usuari i a continuació
 mostri el missatge: “Hola Pep, tens X anys”.
 
@@ -226,6 +227,7 @@ public class RunEveryProgramme {
 ```
 
  **Programes opcionals**
+ 
 1.- Implementeu un programa que donada una quantitat en segons, la transformi a hores,
 minuts i segons.
 
