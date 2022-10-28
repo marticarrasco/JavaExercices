@@ -469,9 +469,13 @@ public class RunEveryProgramme {
 5.- Implementeu un programa que demani a l’usuari mitjançant tres enters una data en format dia-mes-any i a continuació la mostri per pantalla en format textual, per exemple:
 
 Dia: 1
+		
 Mes : 2
+		
 Any: 2010
+		
 La data és: 1 de Febrer de 2010
+		
 
 ```java
 import java.util.*;
