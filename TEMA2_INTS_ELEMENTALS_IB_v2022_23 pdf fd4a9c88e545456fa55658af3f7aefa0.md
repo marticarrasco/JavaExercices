@@ -499,7 +499,7 @@ public class RunEveryProgramme {
             else data[j] = data[j] + s.charAt(i); // va acumulant el que troba, separant-lo segons j
         }
 
-        //utilitza Integer.parseInt(str) per passar de String a Int sense els 0 a la esquerra
+        //utilitza Integer.parseInt(str) per passar de String a Int sense els 0 a la esquerra per tal de ser permisiu amb les entrades
         System.out.println("Dia: " + Integer.parseInt(data[0]));
         System.out.println("Mes: " + Integer.parseInt(data[1]));
         System.out.println("Any: " + Integer.parseInt(data[2]));
