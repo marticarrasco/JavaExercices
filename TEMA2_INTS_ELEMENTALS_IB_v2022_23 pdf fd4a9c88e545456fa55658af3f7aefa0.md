@@ -53,10 +53,10 @@ public class RunEveryProgramme {
         String s2 = new String(input.nextLine());
 
         if(!s1.equals(s2)){ //si no són les mateixes paraules
-            //s1.compareTo(s2) retorna un nombre positiu si s2 > s
+            //s1.compareTo(s2) retorna un nombre positiu si s2 > s1
             if(s1.compareTo(s2) > 0){
                 System.out.println(s2 + " és lexicograficament major que " + s1);
-            } else{
+            } else{ // vol dir que és negatiu, el 0 ja està exclos amb el .equals()
                 System.out.println(s1 + " és lexicograficament major que " + s2);
             }
             return; // atura el programa
