@@ -26,7 +26,7 @@ public class RunEveryProgramme {
                 case 0: System.out.println(num + " és un número parell."); break;
                 default: System.out.println(num + " és un número imparell."); break;
             }
-            return; // atura el programa
+            return; // atura el programa -- la funció main és void, quan es fa el return; no retorna res (null)
         }
         
         // no es compleix ninguna de les condicions anteriors
