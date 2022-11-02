@@ -88,12 +88,16 @@ public class RunEveryProgramme {
         int b = input.nextInt();
 
         // fa les conversions en funció del tipus de canvi
-        if(b == 1){
-            System.out.println(c + "€ són " + c*rate + "$");
-        }else if (b == 0){
-            System.out.println(c + "$ són " + c/rate + "€");
-        }else{ // si s'ha introduit un valor inesperat
-            System.out.println("ERROR - Si us plau introdueix 0 o 1");
+        switch (b) {
+            case 1:
+                System.out.println(c + "€ són " + c*rate + "$");
+                break;
+            case 0:
+                System.out.println(c + "$ són " + c/rate + "€");
+                break;
+            default: // si s'ha introduit un valor inesperat
+                System.out.println("ERROR - Si us plau introdueix 0 o 1");
+                break;
         }
     }
 }
