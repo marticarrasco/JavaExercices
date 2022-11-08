@@ -84,21 +84,12 @@ public class RunEveryProgramme {
         int c = input.nextInt();
 
         System.out.println("Escull el tipus de canvi: ");
-        System.out.println("0- $ a €      1- € a $");
-        int b = input.nextInt();
+        System.out.println("false- $ a €      true- € a $");
+        boolean b = input.nextBoolean();
 
         // fa les conversions en funció del tipus de canvi
-        switch (b) {
-            case 1:
-                System.out.println(c + "€ són " + c*rate + "$");
-                break;
-            case 0:
-                System.out.println(c + "$ són " + c/rate + "€");
-                break;
-            default: // si s'ha introduit un valor inesperat
-                System.out.println("ERROR - Si us plau introdueix 0 o 1");
-                break;
-        }
+        if(b)   System.out.println(c + "€ són " + c*rate + "$");
+        else    System.out.println(c + "$ són " + c/rate + "€");
     }
 }
 ```
