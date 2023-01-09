@@ -193,7 +193,7 @@ public class RunEveryProgramme {
 2.- Escriu un programa que mostri diferents felicitacions per pantalla. L’usuari ha de poder triar la felicitació des d’un menú amb diferents tipus de felicitació: d’aniversari, de Nadal, d’any nou, etc. Les felicitacions han de muntar-se a base de caràcters i símbols:
 S’han d’utilitzar una funció o acció per a cada felicitació.
 
-![Captura de pantalla 2022-12-30 a les 19.42.48.png](TEMA_3_METODES_22_23_IB/Captura_de_pantalla_2022-12-30_a_les_19.42.48.png)
+![mostraExercici.png](TEMA_3_METODES_22_23_IB/mostraExercici.png)
 
 ```java
 import java.util.*;
