@@ -1,6 +1,6 @@
 # TEMA_3_METODES_22_23_IB.pdf
 
-[TEMA_3_METODES_22_23_IB.pdf](TEMA_3_METODES_22_23_IB%20pdf%2046018b6d8b994227a24ea8aef61f913c/TEMA_3_METODES_22_23_IB.pdf)
+[TEMA_3_METODES_22_23_IB.pdf](TEMA_3_METODES_22_23_IB/TEMA_3_METODES_22_23_IB.pdf)
 
 **Programes per completar**
 1.- Modifiqueu el programa 2 per calcular la distancia entre dos punts de l’espai a partir de les seves coordenades: (x0, y0) , (x1, y1)
@@ -193,7 +193,7 @@ public class RunEveryProgramme {
 2.- Escriu un programa que mostri diferents felicitacions per pantalla. L’usuari ha de poder triar la felicitació des d’un menú amb diferents tipus de felicitació: d’aniversari, de Nadal, d’any nou, etc. Les felicitacions han de muntar-se a base de caràcters i símbols:
 S’han d’utilitzar una funció o acció per a cada felicitació.
 
-![Captura de pantalla 2022-12-30 a les 19.42.48.png](TEMA_3_METODES_22_23_IB%20pdf%2046018b6d8b994227a24ea8aef61f913c/Captura_de_pantalla_2022-12-30_a_les_19.42.48.png)
+![Captura de pantalla 2022-12-30 a les 19.42.48.png](TEMA_3_METODES_22_23_IB/Captura_de_pantalla_2022-12-30_a_les_19.42.48.png)
 
 ```java
 import java.util.*;
@@ -283,16 +283,16 @@ public class RunEveryProgramme {
 
 Exemples d’output:
 
-![Captura de pantalla 2023-01-09 a les 20.19.23.png](TEMA_3_METODES_22_23_IB%20pdf%2046018b6d8b994227a24ea8aef61f913c/Captura_de_pantalla_2023-01-09_a_les_20.19.23.png)
+![mostra1.png](TEMA_3_METODES_22_23_IB/mostra1.png)
 
-![Captura de pantalla 2023-01-09 a les 20.19.51.png](TEMA_3_METODES_22_23_IB%20pdf%2046018b6d8b994227a24ea8aef61f913c/Captura_de_pantalla_2023-01-09_a_les_20.19.51.png)
+![mostra2.png](TEMA_3_METODES_22_23_IB/mostra2.png)
 
-![Captura de pantalla 2023-01-09 a les 20.20.31.png](TEMA_3_METODES_22_23_IB%20pdf%2046018b6d8b994227a24ea8aef61f913c/Captura_de_pantalla_2023-01-09_a_les_20.20.31.png)
+![mostra3.png](TEMA_3_METODES_22_23_IB/mostra3.png)
 
 **Miniprojecte (OBLIGATORI)**
 Dissenyar i implementar un programa que seguint el model del programa de l’exemple 1 presenti un menú amb les operacions d’una calculadora científica. S’ha de fer un disseny modular coherent amb l’estructura i funcionament del programa. S’ha de presentar també el diagrama “top-down” del disseny presentat.
 
-![Diagrama Top Down.png](TEMA_3_METODES_22_23_IB%20pdf%2046018b6d8b994227a24ea8aef61f913c/Diagrama_Top_Down.png)
+![Diagrama Top Down.png](TEMA_3_METODES_22_23_IB/Diagrama_Top_Down.png)
 
 ```java
 // javac Main.java; java Main.java
