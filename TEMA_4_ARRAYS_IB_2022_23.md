@@ -1,6 +1,6 @@
 # TEMA_4_ARRAYS_IB_2022_23.pdf
 
-[TEMA_4_ARRAYS_IB_2022_23.pdf](TEMA_4_ARRAYS_IB_2022_23%20pdf%200d49cc20ffa444ebae20f182850c81d0/TEMA_4_ARRAYS_IB_2022_23.pdf)
+[TEMA_4_ARRAYS_IB_2022_23.pdf](TEMA_4_ARRAYS_IB_2022_23%20/TEMA_4_ARRAYS_IB_2022_23.pdf)
 
 **Programes per desenvolupar**
 1.- Feu un programa a partir dels programes anteriors, ompli un vector amb les temperatures
