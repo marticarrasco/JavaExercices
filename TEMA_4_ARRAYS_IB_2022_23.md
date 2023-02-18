@@ -3,6 +3,7 @@
 [TEMA_4_ARRAYS_IB_2022_23.pdf](TEMA_4_ARRAYS_IB_2022_23/TEMA_4_ARRAYS_IB_2022_23.pdf)
 
 **Programes per desenvolupar**
+
 1.- Feu un programa a partir dels programes anteriors, ompli un vector amb les temperatures
 diàries d’un mes (suposem de 30 dies) i ens informi del nombre de dies del mes que han tingut
 la seva temperatura dins d’un rang establert prèviament per l’usuari.
@@ -171,6 +172,7 @@ class Student {
 ```
 
 **Programes opcionals** 
+
 1.- Fer un programa que:
 a) Llegeixi una seqüència de “n” valors numèrics reals d’un màxim de MAX i
 els emmagatzemi en un vector.
@@ -227,7 +229,9 @@ public class Main {
 2. Calculeu la matriu transposada d’una matriu. Una matriu transposada d’una donada, és
 el resultat de canviar en la matriu original el valor de les files pel de les columnes.
 Es definirà una funció amb el prototipus:
+
 public static void transposada(double m[][], double mt[][]);
+
 Aquesta funció rebrà la matriu original introduïda pel teclat m, i ha de calcular la seva
 transposada mt. El programa principal ha de mostrar per pantalla la matriu original i la
 seva transposada.
