@@ -99,13 +99,13 @@ public class GradeTracker {
               marks[3] = (double) (Math.random() * 10);
           } else {
               System.out.print("Enter marks for Extra: ");
-              marks[0] = sc.nextInt();
+              marks[0] = sc.nextDouble();
               System.out.print("Enter marks for Trimestral 1: ");
-              marks[1] = sc.nextInt();
+              marks[1] = sc.nextDouble();
               System.out.print("Enter marks for Trimestral 2: ");
-              marks[2] = sc.nextInt();
+              marks[2] = sc.nextDouble();
               System.out.print("Enter marks for Trimestral 3: ");
-              marks[3] = sc.nextInt();
+              marks[3] = sc.nextDouble();
           }
           
           students[i] = new Student(name, marks);
@@ -158,15 +158,15 @@ class Student {
     }
 
     double calculateMean() {
-      int sum = 0;
-      for(int i = 1; i < marks.length-1; i++){
+      double sum = 0;
+      for(int i = 1; i < 4; i++){
         sum += marks[i];
       }
       /*for (int mark : marks) {
           sum += mark;
       }
       */
-      return ((sum / 3 )+ (marks[0]/10.0)) ;
+      return ((sum / 3.00)+ (marks[0]/10.00)) ;
     }
 }
 ```
