@@ -60,7 +60,7 @@ Finally, the sorted array is returned.
 
 ## Sorting algorithms flowcharts
 
-![sorting algorithms.png](TEMA_5_METODES_ORD_IB_2022_23%20/sorting_algorithms.png)
+![sorting algorithms.png](TEMA_5_METODES_ORD_IB_2022_23/sorting_algorithms.png)
 
 # Mètodes de búsqueda
 
