@@ -116,7 +116,7 @@ If the entire loop finishes without finding a match, the function returns -1.
 
 ## Search algorithms flowcharts
 
-![search methods.png](TEMA_5_METODES_ORD_IB_2022_23%20/search_methods.png)
+![search methods.png](TEMA_5_METODES_ORD_IB_2022_23/search_methods.png)
 
 ## Improvements for these methods
 
