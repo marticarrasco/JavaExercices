@@ -1,6 +1,6 @@
 # TEMA_5_METODES_ORD_IB_2022_23.pdf
 
-[TEMA_5_METODES_ORD_IB_2022_23.pdf](TEMA_5_METODES_ORD_IB_2022_23%20pdf%20b1c3727193564db19d00e2b68a3cb187/TEMA_5_METODES_ORD_IB_2022_23.pdf)
+[TEMA_5_METODES_ORD_IB_2022_23.pdf](TEMA_5_METODES_ORD_IB_2022_23/TEMA_5_METODES_ORD_IB_2022_23.pdf)
 
 # Mètodes d’ordenació
 
@@ -60,7 +60,7 @@ Finally, the sorted array is returned.
 
 ## Sorting algorithms flowcharts
 
-![sorting algorithms.png](TEMA_5_METODES_ORD_IB_2022_23%20pdf%20b1c3727193564db19d00e2b68a3cb187/sorting_algorithms.png)
+![sorting algorithms.png](TEMA_5_METODES_ORD_IB_2022_23%20/sorting_algorithms.png)
 
 # Mètodes de búsqueda
 
@@ -116,7 +116,7 @@ If the entire loop finishes without finding a match, the function returns -1.
 
 ## Search algorithms flowcharts
 
-![search methods.png](TEMA_5_METODES_ORD_IB_2022_23%20pdf%20b1c3727193564db19d00e2b68a3cb187/search_methods.png)
+![search methods.png](TEMA_5_METODES_ORD_IB_2022_23%20/search_methods.png)
 
 ## Improvements for these methods
 
