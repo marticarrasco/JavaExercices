@@ -426,7 +426,7 @@ public class Person {
 }
 ```
 
-![PersonClassUML.png](TEMA_6_INTRO_POO_IB_2022_23_v3%20pdf%2053b014be8644426eb5f5977cb8f40349/PersonClassUML.png)
+![PersonClassUML.png](TEMA_6_INTRO_POO_IB_2022_23_v/PersonClassUML.png)
 
 You can then call this method on a Person object to ask the user for input and set the corresponding attributes. For example:
 
