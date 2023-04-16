@@ -1,6 +1,6 @@
 # TEMA_6_INTRO_POO_IB_2022_23_v3.pdf
 
-[TEMA_6_INTRO_POO_IB_2022_23_v3.pdf](TEMA_6_INTRO_POO_IB_2022_23_v3%20pdf%2053b014be8644426eb5f5977cb8f40349/TEMA_6_INTRO_POO_IB_2022_23_v3.pdf)
+[TEMA_6_INTRO_POO_IB_2022_23_v3.pdf](TEMA_6_INTRO_POO_IB_2022_23_v3%20pdf/TEMA_6_INTRO_POO_IB_2022_23_v3.pdf)
 
 **Programes per desenvolupar**
 1.- Agafant com a referència el programa fet com a exemple de la classe Estudiant, afegiu
