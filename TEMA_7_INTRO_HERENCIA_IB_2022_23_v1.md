@@ -4,7 +4,7 @@
 
 **Programes per desenvolupar
 1.- Afegiu les classes Turisme i Suv derivades de la classe. Implementeu-les amb els constructors, getters i setters i altres mètodes d’entrada i sortida que creieu convenients. Doneu el codi de les dues classes i el diagrama UML complet de les cinc classes.**
-En aquest ![enllaç](https://github.com/marticarrasco/JavaExercices/tree/main/TEMA_7_INTRO_HERENCIA_IB_2022_23_v1/source) es poden trobar les diferents classes que han estat utilitzades en aquestes activitats.
+En aquest [enllaç](https://github.com/marticarrasco/JavaExercices/tree/main/TEMA_7_INTRO_HERENCIA_IB_2022_23_v1/source) es poden trobar les diferents classes que han estat utilitzades en aquestes activitats.
 ![UML.png](TEMA_7_INTRO_HERENCIA_IB_2022_23_v1/UML.png)
 
 **2. – Feu un main on en un vector de Vehicles anomenat Automòbils es col·loquin 10 vehicles del tipus: 8 Cotxes (4 Turismes i 4 Suv) i 2 Motos. Com a sortida s’ha de fer un llistat de tots els vehicles que es disposa amb les seves característiques i el preu de venda.**
