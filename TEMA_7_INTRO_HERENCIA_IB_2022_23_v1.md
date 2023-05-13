@@ -4,6 +4,7 @@
 
 **Programes per desenvolupar
 1.- Afegiu les classes Turisme i Suv derivades de la classe. Implementeu-les amb els constructors, getters i setters i altres mètodes d’entrada i sortida que creieu convenients. Doneu el codi de les dues classes i el diagrama UML complet de les cinc classes.**
+
 En aquest [enllaç](https://github.com/marticarrasco/JavaExercices/tree/main/TEMA_7_INTRO_HERENCIA_IB_2022_23_v1/source) es poden trobar les diferents classes que han estat utilitzades en aquestes activitats.
 ![UML.png](TEMA_7_INTRO_HERENCIA_IB_2022_23_v1/UML.png)
 
