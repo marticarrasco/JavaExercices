@@ -124,19 +124,23 @@ public class GuiaTelefonica {
 1.- Implementació de les classes **`Alumne`** i **`Aula`**.
 
 ```java
-import java.util.*;
-
 public class Alumne {
     private String dni;
+    private String nom;
     private double nota;
 
-    public Alumne(String dni, double nota) {
+    public Alumne(String dni, String nom, double nota) {
         this.dni = dni;
+        this.nom = nom;
         this.nota = nota;
     }
 
     public String getDni() {
         return dni;
+    }
+
+    public String getNom() {
+        return nom;
     }
 
     public double getNota() {
@@ -145,51 +149,88 @@ public class Alumne {
 
     @Override
     public String toString() {
-        return "DNI: " + dni + ", Nota: " + nota;
+        return nom + " (" + dni + ") -----> " + nota;
     }
 }
 ```
 
 ```java
+import java.util.*;
+
 public class Aula {
     private ArrayList<Alumne> alumnes = new ArrayList<>();
+    static Scanner sc = new Scanner(System.in);
 
-    public void afegirAlumne(Alumne alumne) {
-        alumnes.add(alumne);
+    public void afegirAlumne() {
+        System.out.print("Introdueix el DNI de l'alumne: ");
+        String dni = sc.nextLine();
+        System.out.print("Introdueix el nom de l'alumne: ");
+        String nom = sc.nextLine();
+        System.out.print("Introdueix la nota de l'alumne: ");
+        double nota = sc.nextDouble();
+        sc.nextLine();  // per netejar el buffer
+
+        alumnes.add(new Alumne(dni, nom, nota));
     }
 
-    public void mostrarAprovats() {
-        for (Alumne alumne : alumnes) {
-            if (alumne.getNota() >= 5) {
-                System.out.println(alumne);
+    public double calcularMitjana() {
+        double suma = 0.0;
+        for (Alumne a : alumnes) {
+            suma += a.getNota();
+        }
+        return suma / alumnes.size();
+    }
+
+    public void mostrarAprovatsISuspesos() {
+        System.out.println("Aprovats:");
+        for (Alumne a : alumnes) {
+            if (a.getNota() >= 5.0) {
+                System.out.println(a);
             }
         }
-    }
 
-    public void mostrarSuspesos() {
-        for (Alumne alumne : alumnes) {
-            if (alumne.getNota() < 5) {
-                System.out.println(alumne);
+        System.out.println("\nSuspesos:");
+        for (Alumne a : alumnes) {
+            if (a.getNota() < 5.0) {
+                System.out.println(a);
             }
         }
     }
 
     public void mostrarLlistaOrdenada() {
-        ArrayList<Alumne> llistaOrdenada = new ArrayList<>(alumnes);
-    
-        for (int i = 0; i < llistaOrdenada.size() - 1; i++) {
-            for (int j = i + 1; j < llistaOrdenada.size(); j++) {
-                if (llistaOrdenada.get(i).getNota() > llistaOrdenada.get(j).getNota()) {
-                    Alumne temp = llistaOrdenada.get(i);
-                    llistaOrdenada.set(i, llistaOrdenada.get(j));
-                    llistaOrdenada.set(j, temp);
-                }
+        alumnes.sort(Comparator.comparingDouble(Alumne::getNota));
+        System.out.println("Llista ordenada:");
+        for (Alumne a : alumnes) {
+            System.out.println(a);
+        }
+    }
+
+    public void buscarAlumnesPerNota(double notaBuscar) {
+        System.out.println("Alumnes amb nota " + notaBuscar + ":");
+        for (Alumne a : alumnes) {
+            if (a.getNota() == notaBuscar) {
+                System.out.println(a);
             }
         }
+    }
 
-        for (Alumne alumne : llistaOrdenada) {
-            System.out.println(alumne);
+    public static void main(String[] args) {
+        Aula aula = new Aula();
+        System.out.print("Introdueix el nombre d'alumnes: ");
+        int numAlumnes = sc.nextInt();
+        sc.nextLine();  // per netejar el buffer
+
+        for (int i = 0; i < numAlumnes; i++) {
+            aula.afegirAlumne();
         }
+
+        System.out.println("\nMitjana del grup: " + aula.calcularMitjana());
+        aula.mostrarAprovatsISuspesos();
+        aula.mostrarLlistaOrdenada();
+
+        System.out.print("\nIntrodueix una nota per buscar alumnes: ");
+        double notaBuscar = sc.nextDouble();
+        aula.buscarAlumnesPerNota(notaBuscar);
     }
 }
 ```
