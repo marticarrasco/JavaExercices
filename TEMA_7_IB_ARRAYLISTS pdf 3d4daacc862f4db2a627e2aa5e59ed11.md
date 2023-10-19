@@ -234,3 +234,4 @@ public class Aula {
     }
 }
 ```
+![Diagrama UML](TEMA_7_IB_ARRAYLISTS pdf 3d4daacc862f4db2a627e2aa5e59ed11/UML.png)
