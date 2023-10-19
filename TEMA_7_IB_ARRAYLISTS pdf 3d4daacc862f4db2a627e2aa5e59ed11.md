@@ -234,4 +234,4 @@ public class Aula {
     }
 }
 ```
-![Diagrama UML](TEMA_7_IB_ARRAYLISTS pdf 3d4daacc862f4db2a627e2aa5e59ed11/UML.png)
+![Diagrama UML](["TEMA_7_IB_ARRAYLISTS pdf 3d4daacc862f4db2a627e2aa5e59ed11/UML.png"](https://github.com/marticarrasco/JavaExercices/blob/61528c57045489172612e774dbf0d039502db32c/TEMA_7_IB_ARRAYLISTS%20pdf%203d4daacc862f4db2a627e2aa5e59ed11/UML.png)https://github.com/marticarrasco/JavaExercices/blob/61528c57045489172612e774dbf0d039502db32c/TEMA_7_IB_ARRAYLISTS%20pdf%203d4daacc862f4db2a627e2aa5e59ed11/UML.png)
